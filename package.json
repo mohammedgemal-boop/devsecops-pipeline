@@ -1,0 +1,21 @@
+
+{
+  "name": "devsecops-pipeline",
+  "version": "1.0.0",
+  "description": "Secure CI/CD Pipeline using GitHub Actions",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --runInBand",
+    "lint": "eslint src tests",
+    "build": "node --check src/app.js"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "8.57.1",
+    "jest": "29.7.0",
+    "supertest": "7.0.0"
+  }
+}
